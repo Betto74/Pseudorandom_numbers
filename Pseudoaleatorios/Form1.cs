@@ -64,7 +64,7 @@ namespace Pseudoaleatorios
                 
                 cuadradosMedios(parm1, amount);                
             }
-            MessageBox.Show(numbers.Count + " - " + indice + " - " + numbers[0]);
+            //MessageBox.Show(numbers.Count + " - " + indice + " - " + numbers[0]);
 
             dgvNumbers.DataSource = null;
             dgvNumbers.DataSource = numbers;
